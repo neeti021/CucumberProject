@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successful Login with valid credentials",
+        "description": "",
+        "id": "verify-login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7150019000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Signin.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3377927400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email and password and clicks Login button",
+            "match": {
+              "location": "Signin.user_enters_email_and_password_and_clicks_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1577461000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see logout link",
+            "match": {
+              "location": "Signin.user_should_see_logout_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login",
+    "description": "",
+    "id": "verify-login",
+    "keyword": "Feature",
+    "uri": "Feature/login.feature"
+  }
+]
